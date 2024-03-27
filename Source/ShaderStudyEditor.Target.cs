@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class ShaderStudyEditorTarget : TargetRules
 {
-	public ShaderStudyEditorTarget( TargetInfo Target) : base(Target)
+	public ShaderStudyEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
